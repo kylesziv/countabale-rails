@@ -2,6 +2,7 @@ require "countable/rails/version"
 
 module Countable
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end

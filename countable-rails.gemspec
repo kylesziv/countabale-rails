@@ -8,15 +8,15 @@ Gem::Specification.new do |spec|
   spec.version       = Countable::Rails::VERSION
   spec.authors       = ["Kyle Szives"]
   spec.email         = ["kjszives@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary          = "Countable is a script to allow for live paragraph-, word- and character- counting on an HTML element."
+  spec.description      = "Countable is a script to allow for live paragraph-, word- and character- counting on an HTML element based on http://radlikewhoa.github.io/Countable."
   spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
+
+  spec.add_dependency "railties", ">= 3.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
