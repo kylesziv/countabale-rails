@@ -1,6 +1,6 @@
 # Countable
 
-Countable Rails is a Rails wrapper for the javascript plugin Coutnable by [Sacha Schmid](http://sachaschmid.ch) ([**@sachaschmid**](https://twitter.com/sachaschmid)).
+Countable Rails is a Rails wrapper for the javascript plugin Coutnable by [Sacha Schmid](http://sachaschmid.ch) ([**@sachaschmid**](https://twitter.com/sachaschmid))
 
 Countable is a JavaScript function to add **live paragraph-, word- and character-counting** to an HTML element. Countable is a *zero-dependency* library and comes in at **1KB** when minified and gzipped.
 
@@ -17,7 +17,7 @@ gem install 'countable-rails'
 or 
 
 ```
-gem 'countable-rails'
+gem "countable-rails", "~> 0.0.1"
 ```
 
 ## Usage
