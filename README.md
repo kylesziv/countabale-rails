@@ -5,7 +5,8 @@ Countable Rails is a Rails wrapper for the javascript plugin Coutnable by [Sacha
 Countable is a JavaScript function to add **live paragraph-, word- and character-counting** to an HTML element. Countable is a *zero-dependency* library and comes in at **1KB** when minified and gzipped.
 
 [**View the Demo**](http://radlikewhoa.github.io/Countable#demo)
-[***View the Original***](https://github.com/RadLikeWhoa/Countable)
+
+[**View the Original**](https://github.com/RadLikeWhoa/Countable)
 
 ## Installation
 
