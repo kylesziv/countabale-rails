@@ -128,3 +128,7 @@ Countable.live(area, function (counter) {
 * `options.once` has been replaced with `Countable.once()`
 * `Countable.live()` and `Countable.once()` both accept one or more elements, rather than just a single one
 * Inside the callback, `this` is now bound to the current element
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kylesziv/countabale-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
